@@ -9,22 +9,6 @@
 
 AminoAcidDB is a tool developed in collaboration between UVic by the Giebelhaus Laboratory, UBC Okanagan by the plantSMART research team, Supra Research and Development, and UBC Vancouver by the Huan laboratory to allow users to process their untargeted metabolomics data to putativley identify all known amino acids.
 
- ## Recent Updates and Changes (v1.4.1)
-* Added a counter in to count number of times the tool has been used.
-* Small bug fixes
-* Fixed some spelling mistakes within the tool.
-
-
-## Recent Updates and Changes (v1.4.0)
-* Users can now search more than one database at a time.
-* Small bug fixes
-* More comments in the code for ease of use.
-* Seperated M+H and monoisotopic into different databases.
-
-## Current Features
-* More than 1500 primary amino acids.
-* The AminoacidDB shell to allow users to use their own dataset.
-
 ## How to run locally:
 1. Download the most recent version of AminoacidDB
 2. Make sure that your version of R and R Studio are up to date. To do this run the following:
