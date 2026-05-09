@@ -28,6 +28,7 @@ ui <- fluidPage(
       p("AminoacidDB is a tool developed in collaboration between UVic by the Giebelhaus Laboratory, UBC Okanagan by the plantSMART
         research team, Supra Research and Development, and UBC Vancouver by the Huan laboratory to allow users to process their untargeted metabolomics
         data to putativley identify all known amino acids."),
+      p("Find our published article here:	https://doi.org/10.1039/D5AN01248A"),
       strong("Currently there are: 332,154 Amino Acids in the database."),
       br(),
       textOutput("search_count"),
