@@ -252,7 +252,7 @@ server <- function(input, output) {
             reordered_cols <- c(1, 2, 3, 4, 6, 5, 7)
             first7 <- data[, reordered_cols]
             remaining <- data[, -(1:7), drop = FALSE]
-            percent_rt_match = 100*(pmin((data[,6])/data[,7],(data[,7]/data[,6])))
+            percent_rt_match = 100*(pmin((data[,5])/data[,7],(data[,7]/data[,5])))
             RT_match = abs(round(percent_rt_match, 2))
             data <- cbind(first7, RT_match, remaining)
           }
